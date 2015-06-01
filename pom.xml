@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>ekuaizhi.com</groupId>
+	<groupId>com.ekuaizhi</groupId>
 	<artifactId>rc-server-sdk-java</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<build>
@@ -36,5 +36,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
 	</properties>
-
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>http://121.40.138.251:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>releases</id>
+			<url>http://121.40.138.251:8081/nexus/content/repositories/releases/</url>
+		</repository>
+	</distributionManagement>
 </project>
