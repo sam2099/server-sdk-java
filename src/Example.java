@@ -20,8 +20,8 @@ public class Example {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
-		String key = "app-key";
-		String secret = "appsecrect";
+		String key = "mgb7ka1nb5olg";
+		String secret = "tWOxZxYCE7A";
 
 		SdkHttpResult result = null;
 
